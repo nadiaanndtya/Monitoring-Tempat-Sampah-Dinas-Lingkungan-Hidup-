@@ -1,14 +1,3 @@
-/*
-  ESP32 SMART TRASH BIN (3 Unit)
-  - 3 tempat sampah: masing-masing punya
-    1x Ultrasonic FULL, 1x Ultrasonic TANGAN, 1x SERVO
-  - 1x LCD I2C 16x2 (bergiliran tampil TPS1->TPS2->TPS3)
-  - Kirim ke Firebase RTDB: tempat_sampah/TPSID00X/{volume,status}
-
-  PENTING (hardware):
-  - Jika pakai HC-SR04 5V: pin ECHO keluaran 5V WAJIB diturunkan ke 3.3V (pembagi resistor/level shifter) sebelum ke ESP32.
-*/
-
 #include <WiFi.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
