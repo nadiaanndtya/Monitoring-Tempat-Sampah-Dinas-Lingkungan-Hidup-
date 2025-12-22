@@ -1,0 +1,501 @@
+id_lokasi;kode_node;nama_lokasi;latitude;longitude;volume;jenis
+1;dlh;DLH KOTA PAREPARE;-3.988625;119.652161;;TPS
+2;tps_002;jalan sosial 1;-3.985113;119.65232;62;TPS
+3;tps_003;jalan sosial 2;-3.986159;119.650912;83;TPS
+4;tps_004;jalan sosial 3;-3.986662;119.648613;43;TPS
+5;tps_005;jalan sosial 4;-3.986451;119.64644;91;TPS
+6;tps_006;jalan latsitardanus 1;-3.988425;119.651633;71;TPS
+7;tps_007;jalan latsitardanus 2;-3.988757;119.650995;45;TPS
+8;tps_008;jalan latsitardanus 2;-3.986459;119.651142;96;TPS
+9;tps_009;gang sunu;-3.991103;119.634457;39;TPS
+10;tps_010;jalan padat karya;-3.992157;119.653118;51;TPS
+11;tps_011;jalan lkr lapadde 1;-3.99243;119.651708;74;TPS
+12;tps_012;jalan lkr lapadde 2;-3.991991;119.652987;62;TPS
+13;tps_013;jalan lanyer 1;-3.995212;119.659509;59;TPS
+14;tps_014;jalan lanyer 2;-3.995188;119.661383;34;TPS
+15;tps_015;jalan wisata raya;-4.005064;119.652904;43;TPS
+16;tps_016;jalan lkr lapadde 3;-4.001464;119.665935;36;TPS
+17;tps_017;jalan bukit madani;-4.001702;119.665634;33;TPS
+18;tps_018;jalan bukit madani;-4.007142;119.638744;44;TPS
+19;tps_019;jalan bukit madani;-4.002969;119.660892;84;TPS
+20;tps_020;jalan wisata raya;-4.006049;119.652777;74;TPS
+21;tps_021;jalan a yani ;-4.001892;119.645496;34;TPS
+22;tps_022;jalan industri kecil;-4.006137;119.639143;49;TPS
+23;tps_023;jalan muspika;-4.002588;119.639145;95;TPS
+24;tps_024;jalan manunggal;-3.992492;119.64554;97;TPS
+25;tps_025;jalan ar malaka;-3.994463;119.645866;85;TPS
+26;tps_026;jalan manunggal;-3.997774;119.644582;59;TPS
+27;tps_027;jalan laupe;-3.989203;119.6379;83;TPS
+28;tps_028;jalan al hikma;-3.989344;119.649451;74;TPS
+29;tps_029;jalan pendidikan;-3.988622;119.646099;64;TPS
+30;tps_030;jalan pendidikan;-3.98296;119.641346;70;TPS
+31;tps_031;jalan kebun sayur utara;-3.998991;119.635948;63;TPS
+32;tps_032;jalan laupe;-3.990525;119.644;65;TPS
+33;tps_033;jalan h. Laele;-3.988522;119.63774;43;TPS
+34;tps_034;jalan amal bhakti;-3.987755;119.640143;58;TPS
+35;tps_035;jalan melingkar;-3.991331;119.642864;72;TPS
+36;tps_036;jalan nusa karya;-3.989134;119.643688;61;TPS
+37;tps_037;jalan bukit harapan;-3.988491;119.644765;44;TPS
+38;tps_038;jalan manunggal;-3.9975;119.6446;100;TPS
+39;tps_039;jalan handayani;-3.995793;119.650096;52;TPS
+40;tps_040;jalan lagaligo;-3.994915;119.650279;36;TPS
+41;tps_041;jalan karya bakti;-3.995997;119.652977;62;TPS
+42;tps_042;jalan al munawwir;-3.997676;119.657126;98;TPS
+43;tps_043;jalan lino harapan;-3.992681;119.654707;75;TPS
+44;tps_044;jalan lino harapan 1;-3.993721;119.654607;47;TPS
+45;tps_045;jalan lino harapan 2 ;-3.99481;119.654142;95;TPS
+46;tps_046;jalan al munawwir;-3.995458;119.653422;86;TPS
+47;tps_047;jalan wirabuana;-3.99829;119.65211;97;TPS
+48;tps_048;jalan bukit madani;-4.007211;119.638958;46;TPS
+49;tps_049;jalan bukit madani;-4.006002;119.653421;62;TPS
+50;tps_050;jalan bukit madani;-4.004215;119.649483;57;TPS
+51;tps_051;jalan bukit madani;-4.005681;119.646608;96;TPS
+52;tps_052;jalan h andi ajaib;-4.00672;119.637202;80;TPS
+53;tps_053;jalan abubakar lambogo;-4.006358;119.635639;44;TPS
+54;tps_054;lorong 1 ujung lare;-4.005836;119.637208;95;TPS
+55;tps_055;lorong 2 ujung lare;-4.005385;119.637452;52;TPS
+56;tps_056; jalan bukit indah lorong 4;-4.003895;119.63675;60;TPS
+57;tps_057;jalan la ondeng;-4.001883;119.64044;53;TPS
+58;tps_058;jalan bukit indah;-4.000909;119.639024;73;TPS
+59;tps_059;jalan andi makkulau;-4.002932;119.636267;39;TPS
+60;tps_060;jalan andi makkulau;-4.001187;119.637447;54;TPS
+61;tps_061;jalan andi makkulau;-3.999689;119.638134;99;TPS
+62;tps_062;jalan taebe;-3.994282;119.638106;44;TPS
+63;tps_063;jalan taebe;-3.994128;119.637201;54;TPS
+64;tps_064;jalan patukku;-3.991026;119.636818;96;TPS
+65;tps_065;jalan sumur jodoh;-3.991278;119.634166;62;TPS
+66;tps_066;gang ketamba;-3.990905;119.634803;96;TPS
+67;tps_067;jalan titang;-3.992685;119.634452;73;TPS
+68;tps_068;gg kepiting watang soreang;-3.991558;119.633777;99;TPS
+69;tps_069;gg udang watang soreang;-3.991469;119.634105;91;TPS
+70;tps_070;gg bete watang soreang;-3.991546;119.634429;99;TPS
+71;tps_071;gg belana watang soreang;-3.991627;119.634714;77;TPS
+72;tps_072;gg beronang watang soreang;-3.991716;119.634992;94;TPS
+73;tps_073;gg tenro watang soreang;-3.990886;119.635054;83;TPS
+74;tps_074;jalan petta oddo;-3.991677;119.635476;69;TPS
+75;tps_075;jalan petta oddo;-3.995437;119.636524;31;TPS
+76;tps_076;jalan petta unga;-4.004308;119.624505;51;TPS
+77;tps_077;jalan petta unga;-3.991835;119.633546;59;TPS
+78;tps_078;jalan petta unga;-4.000215;119.63043;57;TPS
+79;tps_079;jalan petta unga;-4.00281;119.628612;82;TPS
+80;tps_080;jalan menara;-3.999899;119.630964;50;TPS
+81;tps_081;jalan m arsyad;-4.009393;119.627711;91;TPS
+82;tps_082;jalan pertamina;-4.004365;119.629851;52;TPS
+83;tps_083;jalan menara;-4.001456;119.632744;69;TPS
+84;tps_084;bukit indah;-4.00399;119.637932;84;TPS
+85;tps_085;gang cepa;-3.991061;119.635332;46;TPS
+86;tps_086;gang cantik;-3.991243;119.635578;96;TPS
+87;tps_087;jalan tarakan;-4.002914;119.622249;67;TPS
+88;tps_088;jalan sulawesi;-4.005013;119.622848;70;TPS
+89;tps_089;jalan abd hamid saleh;-4.005434;119.623847;52;TPS
+90;tps_090;jalan kapten h lanca ;-4.00761;119.626614;80;TPS
+91;tps_091;jalan lasinrang;-4.006271;119.621947;44;TPS
+92;tps_092;jalan lasinrang;-4.006625;119.624275;49;TPS
+93;tps_093;jalan lasinrang;-4.006294;119.626134;38;TPS
+94;tps_094;jalan kalimantan;-4.004187;119.622012;93;TPS
+95;tps_095;jalan nusantara;-4.004312;119.622705;47;TPS
+96;tps_096;jalan sazilia;-4.004055;119.622627;67;TPS
+97;tps_097;jalan sazilia;-4.005997;119.623204;78;TPS
+98;tps_098;jalan sazilia;-4.004916;119.623451;77;TPS
+99;tps_099;jalan h p cara;-4.025589;119.626176;68;TPS
+100;tps_100;jalan h tjambi kallado;-4.00633;119.623897;91;TPS
+101;tps_101;jalan kh sanusi maggu;-4.005646;119.624844;50;TPS
+102;tps_102;jalan pelita utara;-4.004813;119.626375;52;TPS
+103;tps_103;jalan pelabuhan;-4.003214;119.623253;67;TPS
+104;tps_104;jalan abd hamid saleh;-4.004382;119.624191;43;TPS
+105;tps_105;jalan surya fatma manggu;-4.005039;119.624813;86;TPS
+106;tps_106;jalan sumur jodoh;-3.99141;119.635481;69;TPS
+107;tps_107;jalan kalimantan;-4.005647;119.622382;87;TPS
+108;tps_108;jalan ag h baharuddin syata;-4.005377;119.624264;88;TPS
+109;tps_109;jalan kalimantan;-4.004781;119.62212;76;TPS
+110;tps_110;jalan nusantara;-4.005506;119.622472;90;TPS
+111;tps_111;jalan pinggir laut;-4.007469;119.621517;52;TPS
+112;tps_112;jalan sultan hasanuddin;-4.010255;119.621561;33;TPS
+113;tps_113;jalan a mangkau;-4.008108;119.622545;52;TPS
+114;tps_114;jalan andi makkasau;-4.007441;119.622702;86;TPS
+115;tps_115;jalan bau massepe;-4.010247;119.622106;90;TPS
+116;tps_116;jalan mesjid raya;-4.009153;119.622388;49;TPS
+117;tps_117;jalan h abu bakar;-4.008625;119.622389;77;TPS
+118;tps_118;jalan lapansiung;-4.007074;119.62298;37;TPS
+119;tps_119;jalan baharuddin;-4.006765;119.623398;74;TPS
+120;tps_120;jalan h. Badaruddin;-4.006909;119.624024;51;TPS
+121;tps_121;jalan pinggir laut;-4.010357;119.621035;60;TPS
+122;tps_122;jalan pinggir laut;-4.011764;119.620858;38;TPS
+123;tps_123;jalan andi makkasau;-4.007687;119.623131;45;TPS
+124;tps_124;jalan baso daeng patompo;-4.006799;119.622603;56;TPS
+125;tps_125;jalan pinggir laut;-4.012625;119.620843;47;TPS
+126;tps_126;jalan sultan hasanuddin;-4.012612;119.621491;64;TPS
+127;tps_127;jalan karaeng burane;-4.012699;119.621321;92;TPS
+128;tps_128;jalan bau massepe;-4.012639;119.621824;95;TPS
+129;tps_129;jalan andi isa;-4.011181;119.622226;95;TPS
+130;tps_130;jalan andi isa;-4.011208;119.622937;92;TPS
+131;tps_131;jalan veteran;-4.012676;119.622944;81;TPS
+132;tps_132;jalan veteran;-4.011802;119.622975;83;TPS
+133;tps_133;jalan mesjid raya;-4.009151;119.622434;30;TPS
+134;tps_134;jalan veteran;-4.011509;119.623013;36;TPS
+135;tps_135;jalan veteran;-4.015501;119.622771;58;TPS
+136;tps_136;jalan andi sulolipu;-4.009816;119.624348;61;TPS
+137;tps_137;jalan andi sulolipu;-4.009718;119.6233;52;TPS
+138;tps_138;jalan andi makkasau;-4.008055;119.626071;53;TPS
+139;tps_139;jalan andi sulolipu;-4.009716;119.623288;57;TPS
+140;tps_140;jalan pettana rajeng;-4.008966;119.624859;99;TPS
+141;tps_141;jalan pettana rajeng;-4.009053;119.625854;57;TPS
+142;tps_142;jalan pettana rajeng;-4.009145;119.626628;94;TPS
+143;tps_143;jalan pelita ;-4.007523;119.62627;38;TPS
+144;tps_144;jalan pelita;-4.006386;119.626444;94;TPS
+145;tps_145;jalan messang bau massepe;-4.006755;119.625819;75;TPS
+146;tps_146;jalan dg pawero;-4.006519;119.625272;89;TPS
+147;tps_147;jalan muh djasim;-4.007148;119.624408;51;TPS
+148;tps_148;jalan h badaruddin;-4.007655;119.623871;83;TPS
+149;tps_149;jalan baso dg ngerang;-4.009496;119.624723;82;TPS
+150;tps_150;jalan andi cammi;-4.012847;119.621171;80;TPS
+151;tps_151;jalan dg pawero;-4.007782;119.625033;75;TPS
+152;tps_152;jalan guru m amin ;-4.01073;119.629102;67;TPS
+153;tps_153;jalan guru m amin;-4.010477;119.629221;93;TPS
+154;tps_154;jalan guru m amin;-4.009471;119.629354;71;TPS
+155;tps_155;jalan gelatik;-4.009381;119.629203;77;TPS
+156;tps_156;jalan gelatik;-4.009326;119.628748;64;TPS
+157;tps_157;jalan andi laetong;-4.010677;119.628339;37;TPS
+158;tps_158;jalan andi laetong;-4.010636;119.627645;65;TPS
+159;tps_159;jalan gelatik;-4.009306;119.628553;90;TPS
+160;tps_160;jalan gelatik;-4.009241;119.627822;41;TPS
+161;tps_161;jalan muh arsyad;-4.009322;119.627722;91;TPS
+162;tps_162;jalan muh arsyad;-4.009919;119.627655;47;TPS
+163;tps_163;jalan muh arsyad;-4.010531;119.627585;39;TPS
+164;tps_164;jalan samparaja;-4.010885;119.629116;46;TPS
+165;tps_165;jalan samparaja;-4.011715;119.628565;98;TPS
+166;tps_166;jalan samparaja;-4.012118;119.627636;54;TPS
+167;tps_167;jalan pelita tenggara;-4.011304;119.62754;92;TPS
+168;tps_168;jalan pelita tenggara;-4.011954;119.627526;63;TPS
+169;tps_169;jalan a yani 9 ;-4.01289;119.626947;61;TPS
+170;tps_170;jalan panca marga;-4.012561;119.626307;61;TPS
+171;tps_171;jalan ganggawa;-4.01256;119.626075;52;TPS
+172;tps_172;jalan ganggawa;-4.011741;119.625733;95;TPS
+173;tps_173;jalan andi mappatola;-4.011343;119.625629;76;TPS
+174;tps_174;jalan andi mappatola;-4.010735;119.625879;41;TPS
+175;tps_175;jalan m kurdi;-4.010462;119.626187;96;TPS
+176;tps_176;jalan m kurdi;-4.010604;119.627422;60;TPS
+177;tps_177;jalan andi mappatola;-4.009927;119.626124;31;TPS
+178;tps_178;jalan andi mappatola;-4.008921;119.626157;47;TPS
+179;tps_179;jalan pettana rajeng;-4.009219;119.627647;99;TPS
+180;tps_180;jalan pettana rajeng;-4.0091;119.626364;98;TPS
+181;tps_181;jalan anggrek;-4.014794;119.624555;50;TPS
+182;tps_182;jalan anggrek;-4.014563;119.624131;65;TPS
+183;tps_183;jalan matahari;-4.014318;119.624794;68;TPS
+184;tps_184;jalan anggrek;-4.014095;119.623754;72;TPS
+185;tps_185;jalan matahari;-4.013944;119.623629;75;TPS
+186;tps_186;jalan matahari;-4.013744;119.622975;98;TPS
+187;tps_187;jalan h agussalim;-4.016517;119.623807;49;TPS
+188;tps_188;jalan melati;-4.015189;119.624296;78;TPS
+189;tps_189;jalan abdul kadir;-4.016182;119.62348;46;TPS
+190;tps_190;jalan melati;-4.015061;119.623309;66;TPS
+191;tps_191;jalan abdul kadir;-4.015879;119.622948;72;TPS
+192;tps_192;jalan mayor abdullah zainuddin;-4.016337;119.620985;55;TPS
+193;tps_193;jalan mayor abdullah zainuddin;-4.015125;119.620481;60;TPS
+194;tps_194;jalan abdul kadir;-4.015896;119.622331;84;TPS
+195;tps_195;jalan abdul kadir;-4.015955;119.621535;76;TPS
+196;tps_196;jalan andi cammi;-4.015866;119.621336;59;TPS
+197;tps_197;jalan bau massepe;-4.015668;119.622396;52;TPS
+198;tps_198;jalan bau massepe;-4.014796;119.622149;83;TPS
+199;tps_199;jalan usman isa;-4.014647;119.62204;56;TPS
+200;tps_200;jalan usman isa;-4.014712;119.621145;44;TPS
+201;tps_201;jalan pancasila utara;-4.013177;119.625972;36;TPS
+202;tps_202;jalan andi mallarangeng 4;-4.014365;119.625211;31;TPS
+203;tps_203;jalan pancasila selatan ;-4.014815;119.625764;58;TPS
+204;tps_204;jalan lanu' mang 18-8;-4.015416;119.624654;52;TPS
+205;tps_205;jalan lanu' mang 28;-4.015512;119.624954;100;TPS
+206;tps_206;jalan panorama;-4.015108;119.626351;81;TPS
+207;tps_207;jalan panorama timur;-4.014966;119.626764;77;TPS
+208;tps_208;jalan panorama timur 24-4;-4.014387;119.626948;100;TPS
+209;tps_209;jalan lasiming;-4.014163;119.626388;34;TPS
+210;tps_210;jalan lasiming;-4.013774;119.626811;44;TPS
+211;tps_211;jalan lasiming;-4.01371;119.627714;69;TPS
+212;tps_212;jalan lasiming 18;-4.013826;119.62841;87;TPS
+213;tps_213;jalan panorama indah;-4.013815;119.628817;51;TPS
+214;tps_214;jalan panorama indah;-4.014062;119.629084;72;TPS
+215;tps_215;jalan panorama indah;-4.014139;119.629265;62;TPS
+216;tps_216;jalan panorama indah;-4.01425;119.62954;63;TPS
+217;tps_217;jalan panorama indah;-4.014376;119.629828;96;TPS
+218;tps_218;jalan panorama indah;-4.014522;119.630069;95;TPS
+219;tps_219;jalan panorama indah;-4.014789;119.630374;76;TPS
+220;tps_220;jalan lasiming;-4.013634;119.628901;69;TPS
+221;tps_221;jalan lasimimg;-4.013471;119.629101;67;TPS
+222;tps_222;jalan lasiming;-4.013301;119.629383;69;TPS
+223;tps_223;jalan lasiming;-4.0131;119.629692;44;TPS
+224;tps_224;jalan lasiming;-4.012773;119.629846;32;TPS
+225;tps_225;jalan lasiming;-4.012652;119.630138;48;TPS
+226;tps_226;jalan lasiming;-4.012932;119.630786;74;TPS
+227;tps_227;jalan lasiming lorong 1;-4.011163;119.631689;60;TPS
+228;tps_228;jalan lasiming lorong1;-4.011481;119.632126;85;TPS
+229;tps_229;jalan lasiming;-4.011027;119.633348;61;TPS
+230;tps_230;jalan lasiming;-4.011094;119.633047;71;TPS
+231;tps_231;jalan lasiming;-4.011143;119.63289;70;TPS
+232;tps_232;jalan lasiming;-4.011261;119.632681;87;TPS
+233;tps_233;jalan lasiming;-4.011381;119.632514;78;TPS
+234;tps_234;jalan lasiming;-4.011675;119.631951;71;TPS
+235;tps_235;jalan lasiming;-4.011992;119.631717;78;TPS
+236;tps_236;jalan lasiming;-4.012351;119.63152;79;TPS
+237;tps_237;jalan lasiming;-4.012908;119.631225;32;TPS
+238;tps_238;jalan atletik;-4.013308;119.63104;50;TPS
+239;tps_239;jalan atletik;-4.013758;119.630891;93;TPS
+240;tps_240;jalan atletik;-4.014205;119.630738;40;TPS
+241;tps_241;jalan atletik;-4.014922;119.630402;46;TPS
+242;tps_242;jalan atletik;-4.015153;119.630325;70;TPS
+243;tps_243;jalan atletik;-4.015581;119.630226;95;TPS
+244;tps_244;jalan atletik;-4.015831;119.630146;82;TPS
+245;tps_245;jalan atletik;-4.016194;119.630033;47;TPS
+246;tps_246;jalan atletik;-4.016539;119.629912;68;TPS
+247;tps_247;jalan atletik;-4.016876;119.629806;79;TPS
+248;tps_248;jalan atletik;-4.017605;119.629656;42;TPS
+249;tps_249;jalan atletik;-4.019343;119.628795;77;TPS
+250;tps_250;jalan atletik;-4.019675;119.629192;87;TPS
+251;tps_251;jalan atletik;-4.020064;119.629524;57;TPS
+252;tps_252;jalan atletik timur 25-39;-4.015541;119.630342;42;TPS
+253;tps_253;jalan atletik timur 36;-4.01564;119.630621;53;TPS
+254;tps_254;jalan atletik timur 33;-4.015708;119.63089;59;TPS
+255;tps_255;jalan atletik timur;-4.016155;119.631824;34;TPS
+256;tps_256;jalan atletik timur 49;-4.016626;119.632248;91;TPS
+257;tps_257;jalan harapan 2;-4.017435;119.629827;70;TPS
+258;tps_258;jalan harapan 2;-4.017461;119.630058;44;TPS
+259;tps_259;jalan harapan 2 ;-4.017509;119.630424;97;TPS
+260;tps_260;jalan harapan 2;-4.017473;119.630861;51;TPS
+261;tps_261;jalan harapan 46;-4.017466;119.631355;100;TPS
+262;tps_262;jalan harapan 46;-4.017546;119.63168;97;TPS
+263;tps_263;jalan harapan;-4.017617;119.631898;90;TPS
+264;tps_264;jalan harapan;-4.017733;119.632071;65;TPS
+265;tps_265;jalan harapan;-4.017922;119.632199;96;TPS
+266;tps_266;jalan harapan;-4.018395;119.632478;48;TPS
+267;tps_267;jalan kesuma timur;-4.020215;119.629719;84;TPS
+268;tps_268;jalan kesuma timur;-4.019826;119.630151;30;TPS
+269;tps_269;jalan kesuma timur;-4.019412;119.630638;94;TPS
+270;tps_270;jalan kesuma timur;-4.019297;119.630956;66;TPS
+271;tps_271;jalan kesuma timur;-4.019265;119.6313;65;TPS
+272;tps_272;jalan kesuma timur;-4.019279;119.631653;91;TPS
+273;tps_273;jalan jenderal sudirman;-4.020738;119.631833;41;TPS
+274;tps_274;jalan reformasi;-4.021803;119.625366;48;TPS
+275;tps_275;jalan reformasi;-4.021795;119.625825;92;TPS
+276;tps_276;jalan reformasi;-4.021787;119.626072;73;TPS
+277;tps_277;jalan reformasi;-4.021789;119.62652;42;TPS
+278;tps_278;jalan reformasi;-4.02188;119.628151;33;TPS
+279;tps_279;jalan reformasi;-4.021915;119.62873;32;TPS
+280;tps_280;jalan reformasi;-4.021983;119.629764;30;TPS
+281;tps_281;jalan reformasi;-4.021581;119.630923;31;TPS
+282;tps_282;jalan reformasi;-4.02105;119.631476;69;TPS
+283;tps_283;jalan reformasi;-4.020916;119.631688;99;TPS
+284;tps_284;jalan reformasi;-4.021062;119.631727;37;TPS
+285;tps_285;jalan jenderal sudirman;-4.022525;119.632971;44;TPS
+286;tps_286;jalan jenderal sudirman;-4.022902;119.633141;99;TPS
+287;tps_287;jalan bambu runcing;-4.021621;119.632196;41;TPS
+288;tps_288;jalan bambu runcing;-4.021415;119.633564;75;TPS
+289;tps_289;jalan bambu runcing;-4.021239;119.634215;85;TPS
+290;tps_290;jalan bambu runcing;-4.021085;119.634539;64;TPS
+291;tps_291;jalan bambu runcing;-4.021021;119.634871;89;TPS
+292;tps_292;jalan bambu runcing;-4.021045;119.635191;61;TPS
+293;tps_293;jalan bambu runcing;-4.021106;119.635508;68;TPS
+294;tps_294;jalan bambu runcing;-4.02122;119.635836;37;TPS
+295;tps_295;jalan bambu runcing;-4.021374;119.636135;54;TPS
+296;tps_296;jalan bambu runcing;-4.021549;119.636409;81;TPS
+297;tps_297;jalan bambu runcing;-4.021764;119.636734;58;TPS
+298;tps_298;jalan bambu runcing;-4.021906;119.63701;98;TPS
+299;tps_299;jalan bambu runcing;-4.021929;119.637328;98;TPS
+300;tps_300;jalan bambu runcing;-4.021925;119.637931;69;TPS
+301;tps_301;jalan bambu runcing;-4.022045;119.638667;82;TPS
+302;tps_302;jalan bambu runcing;-4.024421;119.640403;70;TPS
+303;tps_303;jalan kelapa gading;-4.025156;119.640478;81;TPS
+304;tps_304;jalan mesjid jabal nur ;-4.024115;119.630332;44;TPS
+305;tps_305;jalan h agussalim;-4.024896;119.626073;81;TPS
+306;tps_306;jalan bau massepe;-4.027101;119.625311;44;TPS
+307;tps_307;jalan pemuda;-4.027658;119.625998;61;TPS
+308;tps_308;jalan pemuda;-4.026951;119.627339;31;TPS
+309;tps_309;jalan pemuda;-4.026866;119.63016;31;TPS
+310;tps_310;jalan pemuda;-4.026818;119.631056;80;TPS
+311;tps_311;jalan pemuda;-4.025918;119.632584;60;TPS
+312;tps_312;jalan jenderal sudirman;-4.027488;119.632771;85;TPS
+313;tps_313;jalan balaikota;-4.028932;119.632902;79;TPS
+314;tps_314;jalan kelapa gading;-4.028665;119.635071;72;TPS
+315;tps_315;lrg p taebe;-4.028781;119.634708;43;TPS
+316;tps_316;jalan kelapa gading;-4.029254;119.63722;36;TPS
+317;tps_317;jalan kelapa gading;-4.027438;119.63958;38;TPS
+318;tps_318;jalan kelapa gading;-4.026547;119.639832;36;TPS
+319;tps_319;jalan kelapa gading;-4.024842;119.640422;49;TPS
+320;tps_320;jalan bambu runcing;-4.024163;119.640396;53;TPS
+321;tps_321;jalan bambu runcing;-4.023146;119.640165;76;TPS
+322;tps_322;jalan bambu runcing;-4.022661;119.639994;77;TPS
+323;tps_323;jalan bambu runcing;-4.022008;119.638912;68;TPS
+324;tps_324;jalan bambu runcing;-4.02186;119.6369;87;TPS
+325;tps_325;jalan bambu runcing;-4.021145;119.635684;79;TPS
+326;tps_326;jalan bambu runcing;-4.021105;119.634484;76;TPS
+327;tps_327;jalan bambu runcing;-4.021633;119.632087;36;TPS
+328;tps_328;lorong anggrek;-4.022063;119.633065;36;TPS
+329;tps_329;lorong p taebe;-4.02957;119.634491;68;TPS
+330;tps_330;jalan puri haerana permai;-4.029694;119.637791;59;TPS
+331;tps_331;jalan marham alam raya;-4.029469;119.636527;43;TPS
+332;tps_332;jalan marham alam raya;-4.030673;119.635573;38;TPS
+333;tps_333;jalan marham alam raya;-4.031368;119.635202;53;TPS
+334;tps_334;jalan sakinah;-4.031866;119.632777;57;TPS
+335;tps_335;jalan sakinah;-4.032014;119.633534;39;TPS
+336;tps_336;jalan sakinah;-4.032142;119.634168;93;TPS
+337;tps_337;jalan marham alam raya;-4.032268;119.634199;80;TPS
+338;tps_338;jalan marham alam raya;-4.032836;119.633876;88;TPS
+339;tps_339;jalan marham alam raya;-4.03359;119.633477;96;TPS
+340;tps_340;jalan persada indah;-4.033754;119.632199;74;TPS
+341;tps_341;jalan persada indah;-4.034228;119.632133;49;TPS
+342;tps_342;jalan persada indah;-4.034744;119.632124;44;TPS
+343;tps_343;jalan persada indah;-4.035401;119.632025;32;TPS
+344;tps_344;jalan persada indah;-4.035784;119.631905;37;TPS
+345;tps_345;jalan nururssamawati;-4.033734;119.63335;43;TPS
+346;tps_346;jalan nururssamawati;-4.034396;119.633453;90;TPS
+347;tps_347;jalan nururssamawati;-4.035183;119.633402;61;TPS
+348;tps_348;jalan nururssamawati;-4.035768;119.633291;65;TPS
+349;tps_349;jalan nururssamawati;-4.036144;119.633222;92;TPS
+350;tps_350;jalan beringin;-4.036332;119.633065;35;TPS
+351;tps_351;jalan beringin;-4.03618;119.632497;31;TPS
+352;tps_352;jalan beringin;-4.036068;119.631996;92;TPS
+353;tps_353;jalan beringin;-4.035837;119.631299;48;TPS
+354;tps_354;jalan beringin;-4.035701;119.630709;68;TPS
+355;tps_355;jalan beringin;-4.035669;119.630346;75;TPS
+356;tps_356;jalan beringin;-4.035553;119.629998;96;TPS
+357;tps_357;jalan beringin;-4.035429;119.629778;40;TPS
+358;tps_358;jalan jenderal sudirman;-4.035479;119.629527;32;TPS
+359;tps_359;jalan jenderal sudirman;-4.03625;119.629216;37;TPS
+360;tps_360;jalan jenderal sudirman;-4.036794;119.629255;46;TPS
+361;tps_361;jalan jenderal sudirman;-4.037791;119.628544;85;TPS
+362;tps_362;jalan jenderal sudirman;-4.039036;119.62804;53;TPS
+363;tps_363;jalan jenderal sudirman;-4.040593;119.62819;91;TPS
+364;tps_364;jalan jenderal sudirman;-4.041251;119.628566;38;TPS
+365;tps_365;jalan jenderal sudirman;-4.042687;119.629144;35;TPS
+366;tps_366;jalan cendana;-4.037676;119.628814;42;TPS
+367;tps_367;jalan cendana;-4.037994;119.629056;73;TPS
+368;tps_368;jalan cendana;-4.038633;119.629056;69;TPS
+369;tps_369;jalan cendana;-4.039404;119.629068;41;TPS
+370;tps_370;jalan cendana;-4.040081;119.629252;52;TPS
+371;tps_371;jalan cendana;-4.040658;119.629477;83;TPS
+372;tps_372;jalan kemiri;-4.040365;119.629221;63;TPS
+373;tps_373;lorong purna bhakti 1;-4.040284;119.629545;62;TPS
+374;tps_374;jalan samsul alam bulu;-4.036387;119.633301;38;TPS
+375;tps_375;jalan samsul alam bulu;-4.036591;119.634246;81;TPS
+376;tps_376;jalan samsul alam bulu;-4.03634;119.635042;98;TPS
+377;tps_377;jalan samsul alam bulu;-4.036387;119.635451;35;TPS
+378;tps_378;jalan samsul alam bulu;-4.036424;119.635909;66;TPS
+379;tps_379;jalan samsul alam bulu;-4.036423;119.636814;46;TPS
+380;tps_380;jalan samsul alam bulu;-4.036422;119.636955;53;TPS
+381;tps_381;jalan samsul alam bulu;-4.036366;119.637237;41;TPS
+382;tps_382;jalan samsul alam bulu;-4.036208;119.637491;65;TPS
+383;tps_383;jalan samsul alam bulu;-4.036107;119.637664;48;TPS
+384;tps_384;jalan samsul alam bulu;-4.036;119.637852;78;TPS
+385;tps_385;jalan samsul alam bulu;-4.035902;119.638049;50;TPS
+386;tps_386;jalan samsul alam bulu;-4.035801;119.638239;61;TPS
+387;tps_387;jalan samsul alam bulu;-4.035654;119.638501;39;TPS
+388;tps_388;jalan samsul alam bulu;-4.035485;119.638802;68;TPS
+389;tps_389;jalan samsul alam bulu;-4.035293;119.639105;94;TPS
+390;tps_390;jalan samsul alam bulu;-4.035178;119.639467;66;TPS
+391;tps_391;jalan samsul alam bulu;-4.035095;119.639704;56;TPS
+392;tps_392;jalan samsul alam bulu;-4.034997;119.639858;76;TPS
+393;tps_393;jalan samsul alam bulu;-4.034729;119.640219;69;TPS
+394;tps_394;jalan samsul alam bulu;-4.034543;119.640617;49;TPS
+395;tps_395;jalan samsul alam bulu;-4.034386;119.640945;58;TPS
+396;tps_396;jalan samsul alam bulu;-4.034067;119.641354;84;TPS
+397;tps_397;jalan samsul alam bulu;-4.033712;119.641855;36;TPS
+398;tps_398;jalan samsul alam bulu;-4.033443;119.642351;61;TPS
+399;tps_399;jalan samsul alam bulu;-4.032835;119.643316;98;TPS
+400;tps_400;jalan samsul alam bulu;-4.032956;119.644001;90;TPS
+401;tps_401;jalan samsul alam bulu;-4.03344;119.64559;90;TPS
+402;tps_402;jalan stadion gelora mandiri;-4.033685;119.642031;55;TPS
+403;tps_403;jalan stadion gelora mandiri;-4.03395;119.642014;88;TPS
+404;tps_404;jalan stadion gelora mandiri;-4.034113;119.642182;44;TPS
+405;tps_405;jalan stadion gelora mandiri;-4.034336;119.642225;92;TPS
+406;tps_406;jalan stadion gelora mandiri;-4.034466;119.642343;49;TPS
+407;tps_407;jalan stadion gelora mandiri;-4.034682;119.642337;36;TPS
+408;tps_408;jalan stadion gelora mandiri;-4.034875;119.642322;35;TPS
+409;tps_409;jalan stadion gelora mandiri;-4.035063;119.64231;85;TPS
+410;tps_410;jalan stadion gelora mandiri;-4.035271;119.642304;76;TPS
+411;tps_411;jalan stadion gelora mandiri;-4.035381;119.642689;86;TPS
+412;tps_412;jalan stadion gelora mandiri;-4.035383;119.642891;47;TPS
+413;tps_413;jalan stadion gelora mandiri;-4.035421;119.643076;74;TPS
+414;tps_414;jalan stadion gelora mandiri;-4.035732;119.643076;58;TPS
+415;tps_415;jalan stadion gelora mandiri;-4.035944;119.643063;70;TPS
+416;tps_416;jalan stadion gelora mandiri;-4.036068;119.643414;50;TPS
+417;tps_417;jalan stadion gelora mandiri;-4.036046;119.643635;94;TPS
+418;tps_418;jalan stadion gelora mandiri;-4.036243;119.643838;48;TPS
+419;tps_419;jalan stadion gelora mandiri;-4.036385;119.644012;87;TPS
+420;tps_420;jalan stadion gelora mandiri;-4.036626;119.644102;95;TPS
+421;tps_421;jalan stadion gelora mandiri;-4.036656;119.644519;91;TPS
+422;tps_422;jalan stadion gelora mandiri;-4.036619;119.644829;99;TPS
+423;tps_423;jalan stadion gelora mandiri;-4.036234;119.644839;88;TPS
+424;tps_424;jalan stadion gelora mandiri;-4.035431;119.64487;83;TPS
+425;tps_425;jalan stadion gelora mandiri;-4.035041;119.644906;81;TPS
+426;tps_426;jalan stadion gelora mandiri;-4.034644;119.645019;95;TPS
+427;tps_427;jalan stadion gelora mandiri;-4.034343;119.645171;51;TPS
+428;tps_428;jalan stadion gelora mandiri;-4.033959;119.645454;45;TPS
+429;tps_429;jalan stadion gelora mandiri;-4.033568;119.645731;64;TPS
+430;tps_430;jalan chalik;-4.04177;119.628519;30;TPS
+431;tps_431;jalan chalik;-4.041917;119.628279;81;TPS
+432;tps_432;jalan chalik;-4.041985;119.62813;53;TPS
+433;tps_433;jalan chalik;-4.042156;119.627718;77;TPS
+434;tps_434;jalan chalik;-4.042284;119.627448;43;TPS
+435;tps_435;jalan chalik;-4.042467;119.627057;100;TPS
+436;tps_436;jalan chalik;-4.042453;119.626655;41;TPS
+437;tps_437;jalan chalik;-4.042304;119.626496;50;TPS
+438;tps_438;jalan chalik;-4.042007;119.625922;100;TPS
+439;tps_439;jalan chalik;-4.042087;119.625423;38;TPS
+440;tps_440;jalan h abd djabbar d;-4.041228;119.625648;42;TPS
+441;tps_441;jalan h abd djabbar d;-4.041309;119.625903;45;TPS
+442;tps_442;jalan h abd djabbar d;-4.041553;119.625973;55;TPS
+443;tps_443;jalan h abd djabbar d;-4.041945;119.626022;46;TPS
+444;tps_444;jalan taman makam pahlawan;-4.042054;119.62611;32;TPS
+445;tps_445;jalan taman makam pahlawan;-4.042581;119.626249;83;TPS
+446;tps_446;jalan taman makam pahlawan;-4.043351;119.626473;79;TPS
+447;tps_447;jalan taman makam pahlawan;-4.043628;119.626562;92;TPS
+448;tps_448;jalan taman makam pahlawan;-4.04402;119.626678;64;TPS
+449;tps_449;jalan batasannya;-4.04253;119.626595;33;TPS
+450;tps_450;jalan batasannya;-4.043067;119.626832;38;TPS
+451;tps_451;jalan batasannya;-4.04326;119.62692;68;TPS
+452;tps_452;jalan batasannya;-4.043638;119.627079;49;TPS
+453;tps_453;jalan batasannya;-4.044001;119.627071;45;TPS
+454;tps_454;jalan diamis;-4.042925;119.625205;33;TPS
+455;tps_455;jalan diamis;-4.04322;119.625199;49;TPS
+456;tps_456;jalan diamis;-4.043346;119.62519;99;TPS
+457;tps_457;jalan diamis;-4.043587;119.625166;87;TPS
+458;tps_458;jalan diamis;-4.043835;119.625141;51;TPS
+459;tps_459;jalan diamis;-4.044338;119.625075;65;TPS
+460;tps_460;jalan mattirotasi baru;-4.038369;119.625625;34;TPS
+461;tps_461;jalan mattirotasi baru;-4.038436;119.62552;83;TPS
+462;tps_462;jalan mattirotasi baru;-4.038642;119.62531;91;TPS
+463;tps_463;jalan mattirotasi baru;-4.038796;119.625163;63;TPS
+464;tps_464;jalan mattirotasi baru;-4.038907;119.625089;68;TPS
+465;tps_465;jalan mattirotasi baru;-4.039272;119.624952;66;TPS
+466;tps_466;jalan mattirotasi baru;-4.039901;119.624762;70;TPS
+467;tps_467;jalan mattirotasi baru;-4.040306;119.624656;38;TPS
+468;tps_468;jalan mattirotasi baru;-4.040904;119.624525;57;TPS
+469;tps_469;jalan mattirotasi baru;-4.041609;119.624386;58;TPS
+470;tps_470;jalan mattirotasi baru;-4.041879;119.624335;76;TPS
+471;tps_471;jalan mattirotasi baru;-4.042643;119.624186;74;TPS
+472;tps_472;jalan mattirotasi baru;-4.044469;119.623714;51;TPS
+473;tps_473;jalan mattirotasi baru;-4.044018;119.623821;47;TPS
+474;tps_474;jalan mattirotasi baru;-4.043631;119.623924;72;TPS
+475;tps_475;jalan mattirotasi baru;-4.043439;119.623976;80;TPS
+476;tps_476;jalan h m jubair;-4.044528;119.623821;47;TPS
+477;tps_477;jalan h m jubair;-4.044561;119.624138;95;TPS
+478;tps_478;jalan h m jubair;-4.044608;119.624468;60;TPS
+479;tps_479;jalan h m jubair;-4.044718;119.625076;100;TPS
+480;tps_480;jalan h m jubair;-4.044767;119.625397;46;TPS
+481;tps_481;jalan h m jubair;-4.044827;119.625743;66;TPS
+482;tps_482;jalan h m jubair;-4.044867;119.626377;95;TPS
+483;tps_483;jalan latasakka;-4.051709;119.618509;50;TPS
+484;tps_484;jalan latasakka;-4.051009;119.618814;64;TPS
+485;tps_485;jalan latasakka;-4.049346;119.622698;86;TPS
+486;tps_486;jalan latasakka;-4.049213;119.623025;72;TPS
+487;tps_487;jalan latasakka;-4.048476;119.624623;77;TPS
+488;tps_488;jalan latasakka;-4.048508;119.625295;72;TPS
+489;tps_489;jalan latasakka;-4.047785;119.627556;91;TPS
+490;tps_490;jalan kebun sayur;-4.004702;119.630376;92;TPS
+491;tps_491;jalan andi sinta;-4.007506;119.628912;65;TPS
+492;tps_492;jalan andi sinta;-4.006235;119.629070;65;TPS
+493;tps_493;jalan andi sinta;-4.005323;119.628917;90;TPS
+494;tps_494;jalan pasar lakessi;-4.006573;119.627576;97;TPS
+495;tps_495;jalan pasar lakessi;-4.006948;119.627783;69;TPS
+496;tps_496;jalan muhammadiyah;-4.006510;119.629927;87;TPS
+497;tps_497;jalan muhammadiyah;-4.006679;119.631074;74;TPS
+498;tps_498;jalan panti asuhan;-4.005844;119.630741;93;TPS
+499;tps_499;jalan panti asuhan;-4.006589;119.631286;77;TPS
+500;tps_500;jalan lamihade;-4.020838;119.651812;71;TPS
