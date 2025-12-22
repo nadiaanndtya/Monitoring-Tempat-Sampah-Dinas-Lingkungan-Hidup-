@@ -1,0 +1,129 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 900px;
+  height: 550px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 50px;
+  border: none;
+  background: #f0f0f0;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px 0;
+  border-radius: 50px;
+  border: none;
+  background: #4dabff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #3a8de0;
+}
+
+.text {
+  text-align: center;
+  margin: 25px 0 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  border-color: #4dabff;
+}
+
+.side-container {
+  flex: 1;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.side-container h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.side-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #2193b0;
+}
