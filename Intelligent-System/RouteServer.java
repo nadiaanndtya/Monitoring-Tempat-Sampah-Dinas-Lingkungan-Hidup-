@@ -14,11 +14,9 @@ import java.util.List;
 
 public class RouteServer {
 
-    // Path ke CSV (samakan dengan RouteModel)
     private static final String CSV_PATH =
             "C:\\Users\\ACER\\project sistem cerdas LNS\\algoritma_LNS.csv";
 
-    // Ambang minimal persentase TPS yang akan dikunjungi
     private static final double MIN_PERCENTAGE = 80.0;
 
     public static void main(String[] args) throws IOException {
@@ -26,18 +24,14 @@ public class RouteServer {
 
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
 
-        // Endpoint teks laporan rute
         server.createContext("/route", new RouteHandler());
 
-        // Endpoint halaman peta (root) -> kirim index.html
         server.createContext("/", new StaticFileHandler("index.html",
                 "text/html; charset=utf-8"));
 
-        // Endpoint untuk file JS peta
         server.createContext("/index.js", new StaticFileHandler("index.js",
                 "application/javascript; charset=utf-8"));
 
-        // (opsional) kalau kamu langsung akses /index.html
         server.createContext("/index.html", new StaticFileHandler("index.html",
                 "text/html; charset=utf-8"));
 
@@ -49,9 +43,6 @@ public class RouteServer {
         server.start();
     }
 
-    // ==========================
-    // Handler static file (index.html, index.js)
-    // ==========================
     static class StaticFileHandler implements HttpHandler {
         private final Path filePath;
         private final String contentType;
@@ -84,9 +75,6 @@ public class RouteServer {
         }
     }
 
-    // ==========================
-    // Handler untuk /route (laporan teks)
-    // ==========================
     static class RouteHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
@@ -113,9 +101,6 @@ public class RouteServer {
         }
     }
 
-    // ==========================
-    // Logika perhitungan rute (sama dengan RouteModel.main)
-    // ==========================
     private static String buildRouteReport() throws IOException {
         List<RouteModel.Location> allLocations =
                 RouteModel.loadLocationsFromCsv(CSV_PATH);
@@ -125,7 +110,6 @@ public class RouteServer {
           .append(allLocations.size())
           .append("\n");
 
-        // Cari DLH sebagai depot
         int depotIndex = -1;
         for (int i = 0; i < allLocations.size(); i++) {
             if (allLocations.get(i).kodeNode.equalsIgnoreCase("dlh")) {
@@ -142,7 +126,6 @@ public class RouteServer {
         RouteModel.Location depot = allLocations.get(depotIndex);
         sb.append("Depot awal: ").append(depot).append("\n");
 
-        // Filter lokasi aktif (depot + TPS dengan persentase_penuh >= MIN_PERCENTAGE)
         List<RouteModel.Location> activeLocations = new ArrayList<>();
         activeLocations.add(depot); // indeks 0 = depot
 
@@ -166,7 +149,6 @@ public class RouteServer {
             return sb.toString();
         }
 
-        // Hitung rute dengan Nearest Neighbor, mulai dari depot (indeks 0)
         List<Integer> routeIndices =
                 RouteModel.nearestNeighborRoute(activeLocations, 0);
 
@@ -177,14 +159,12 @@ public class RouteServer {
             totalDistanceGo += RouteModel.haversineDistanceMeters(from, to);
         }
 
-        // Jarak kembali ke depot
         RouteModel.Location last =
                 activeLocations.get(routeIndices.get(routeIndices.size() - 1));
         double distanceBack =
                 RouteModel.haversineDistanceMeters(last, depot);
         double totalDistanceRoundTrip = totalDistanceGo + distanceBack;
 
-        // Tulis urutan rute
         sb.append("\n=== RUTE OPTIMAL (Nearest Neighbor) ===\n");
         for (int step = 0; step < routeIndices.size(); step++) {
             int idx = routeIndices.get(step);
@@ -207,7 +187,6 @@ public class RouteServer {
           .append(depot.namaLokasi)
           .append("\n\n");
 
-        // Tulis ringkasan jarak
         sb.append(String.format("Total jarak pergi (tanpa kembali): %.2f km%n",
                 totalDistanceGo / 1000.0));
         sb.append(String.format("Jarak kembali ke depot: %.2f km%n",
@@ -218,3 +197,4 @@ public class RouteServer {
         return sb.toString();
     }
 }
+
