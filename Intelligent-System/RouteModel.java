@@ -5,24 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RouteModel {
-
-    // ==========================
-    // Konfigurasi
-    // ==========================
-
-    // Path ke file CSV (sesuaikan dengan lokasi file kamu)
+    
+    
     private static final String CSV_PATH =
             "C:\\Users\\ACER\\project sistem cerdas LNS\\algoritma_LNS.csv";
 
-    // Ambang minimal persentase TPS yang akan dikunjungi (boleh kamu ubah)
     private static final double MIN_PERCENTAGE = 80.0;
 
-    // Jari-jari bumi (meter) untuk Haversine
     private static final double EARTH_RADIUS_METERS = 6371000.0;
-
-    // ==========================
-    // Model data lokasi
-    // ==========================
 
     public static class Location {
         public int idLokasi;
@@ -30,8 +20,8 @@ public class RouteModel {
         public String namaLokasi;
         public double latitude;
         public double longitude;
-        public Double persentasePenuh; // bisa null untuk DLH
-        public String jenis;           // "Depo" atau "TPS"
+        public Double persentasePenuh; 
+        public String jenis;           
 
         public Location(int idLokasi, String kodeNode, String namaLokasi,
                         double latitude, double longitude,
@@ -56,10 +46,6 @@ public class RouteModel {
         }
     }
 
-    // ==========================
-    // Fungsi baca dataset CSV
-    // ==========================
-
     public static List<Location> loadLocationsFromCsv(String csvPath) throws IOException {
         List<Location> locations = new ArrayList<>();
 
@@ -78,8 +64,6 @@ public class RouteModel {
                     continue;
                 }
 
-                // File CSV dari Excel pakai pemisah titik-koma (;)
-                // -1 supaya kolom kosong di akhir tetap terbaca
                 String[] parts = line.split(";", -1);
 
                 if (parts.length < 7) {
@@ -121,10 +105,6 @@ public class RouteModel {
         return locations;
     }
 
-    // ==========================
-    // Fungsi Haversine (meter)
-    // ==========================
-
     public static double haversineDistanceMeters(double lat1, double lon1,
                                                  double lat2, double lon2) {
         double radLat1 = Math.toRadians(lat1);
@@ -144,10 +124,6 @@ public class RouteModel {
     public static double haversineDistanceMeters(Location a, Location b) {
         return haversineDistanceMeters(a.latitude, a.longitude, b.latitude, b.longitude);
     }
-
-    // ==========================
-    // Nearest Neighbor Route
-    // ==========================
 
     public static List<Integer> nearestNeighborRoute(List<Location> locations, int startIndex) {
         int n = locations.size();
@@ -188,10 +164,6 @@ public class RouteModel {
         return route;
     }
 
-    // ==========================
-    // Main: Baca dataset + hitung rute
-    // ==========================
-
     public static void main(String[] args) {
         try {
             System.out.println("Memuat dataset dari: " + CSV_PATH);
@@ -215,9 +187,6 @@ public class RouteModel {
             Location depot = allLocations.get(depotIndex);
             System.out.println("Depot awal: " + depot);
 
-            // Bangun daftar lokasi aktif:
-            // - Depot
-            // - Semua TPS dengan persentase_penuh >= MIN_PERCENTAGE
             List<Location> activeLocations = new ArrayList<>();
             activeLocations.add(depot); // indeks 0
 
@@ -239,10 +208,8 @@ public class RouteModel {
                 return;
             }
 
-            // Jalankan Nearest Neighbor dari depot (indeks 0 pada activeLocations)
             List<Integer> routeIndices = nearestNeighborRoute(activeLocations, 0);
 
-            // Hitung total jarak rute (pergi) + kembali ke depot
             double totalDistanceGo = 0.0;
             for (int i = 0; i < routeIndices.size() - 1; i++) {
                 Location from = activeLocations.get(routeIndices.get(i));
@@ -250,12 +217,10 @@ public class RouteModel {
                 totalDistanceGo += haversineDistanceMeters(from, to);
             }
 
-            // Jarak kembali ke depot
             Location last = activeLocations.get(routeIndices.get(routeIndices.size() - 1));
             double distanceBack = haversineDistanceMeters(last, depot);
             double totalDistanceRoundTrip = totalDistanceGo + distanceBack;
 
-            // Tampilkan hasil rute
             System.out.println("\n=== RUTE OPTIMAL (Nearest Neighbor) ===");
             for (int step = 0; step < routeIndices.size(); step++) {
                 int idx = routeIndices.get(step);
@@ -280,3 +245,4 @@ public class RouteModel {
         }
     }
 }
+
